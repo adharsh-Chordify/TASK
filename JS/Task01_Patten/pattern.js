@@ -20,7 +20,7 @@ pattern=()=>{
         
     }
     document.write(a);
-    console.log(a);
+    
     
 }
 
