@@ -26,6 +26,7 @@ pattern=()=>{
 
 
 pattern();
+<<<<<<< HEAD
 
 
 
@@ -38,3 +39,5 @@ pattern();
 
 
 
+=======
+>>>>>>> 6ce340b1c98c01671af8a16bd122cca4fd3a16e9
