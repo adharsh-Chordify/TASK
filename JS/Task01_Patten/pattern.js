@@ -26,18 +26,8 @@ pattern=()=>{
 
 
 pattern();
-<<<<<<< HEAD
 
 
+let click=document.getElementById("name");
 
-
-    let click=document.getElementById("name");
-
-    click.ondblclick= function(){document.body.append("hey whatsupppppp????")}
-
-
-
-
-
-=======
->>>>>>> 6ce340b1c98c01671af8a16bd122cca4fd3a16e9
+click.ondblclick= function(){document.body.append("Hurray You Have Clicked It !!!!!!")}
