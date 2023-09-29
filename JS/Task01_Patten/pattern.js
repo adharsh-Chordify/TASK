@@ -1,6 +1,6 @@
 
 
-document.write("HEY WHATS UP???  </br>" )
+document.write("<br/>  HEY WHATS UP???  </br>" )
 
 
 
@@ -20,9 +20,21 @@ pattern=()=>{
         
     }
     document.write(a);
-    console.log(a);
+    
     
 }
 
 
 pattern();
+
+
+
+
+    let click=document.getElementById("name");
+
+    click.ondblclick= function(){document.body.append("hey whatsupppppp????")}
+
+
+
+
+
