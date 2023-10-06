@@ -1,3 +1,4 @@
+let input1=parseInt(prompt("Enter The Number"))
 pattern=(input)=>{
      
     for(let i=1;i<=input;i++){
@@ -14,4 +15,4 @@ pattern=(input)=>{
   
 
 }
-pattern(4)
+pattern(input1)

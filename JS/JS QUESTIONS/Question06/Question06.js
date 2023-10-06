@@ -1,3 +1,5 @@
+let input1=parseInt(prompt("Enter A Number between 1 to 7"))
+
 Days=(t1)=>{
     let day;
    
@@ -30,7 +32,7 @@ Days=(t1)=>{
                 break;
 
         }
-        return day;
+        alert("The selected day is "+day);
 
     }
 
@@ -38,7 +40,7 @@ Days=(t1)=>{
     
 
 
-console.log(Days(0));
+Days(input1);
 
 // Input
 // Output

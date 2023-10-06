@@ -19,26 +19,29 @@ class Mathematicaloperation{
 }
 const operations=new Mathematicaloperation()
 
-maths=(num1,num2,condition)=>{
+maths=()=>{
+    let num1=parseInt(prompt("Enter the first Number"))
+    let num2=parseInt(prompt("Enter the second Number"))
+    let condition=parseInt(prompt("Enter the condition"))
 
     switch(condition){
         case 1:
-            console.log('The added result is '+operations.additon(num1,num2));
+            alert('The added result is '+operations.additon(num1,num2));
             break;
 
         case 2:
-            console.log ('The Subtracted result is '+operations.subtraction(num1,num2));
+            alert ('The Subtracted result is '+operations.subtraction(num1,num2));
             break;
         case 3:
-            console.log ('The Multiplied result is '+operations.multiplication(num1,num2));
+            alert ('The Multiplied result is '+operations.multiplication(num1,num2));
             break;
         case 4:
-            console.log ('The Divided result is '+operations.division(num1,num2));
+            alert ('The Divided result is '+operations.division(num1,num2));
             break;
         default:
-            console.log("PLease Select The Number Between 1 to 4");
+            alert ("PLease Select The Number Between 1 to 4");
     }
 
 }
 
-maths(10,5,2)
+maths()

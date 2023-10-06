@@ -5,6 +5,7 @@
 
 }
 
+
 carDetail = new Car("Glanza",18,140)
 
 console.log(`The car Name is ${carDetail.name}`);

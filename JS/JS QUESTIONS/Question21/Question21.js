@@ -1,13 +1,20 @@
-arraymultiply=(array)=>{
+arraymultiply=()=>{
+    let array=[];
     let newa;
+    let newb
     let newaarray=[]
-
+    let arraylen=parseInt(prompt("Enter the length of the array"))
+    console.log(arraylen);
+    for(j=0;j<arraylen;j++){
+        newb=parseInt(prompt('Enter the value'))
+        array.push(newb)
+    }
     for(i=0;i<array.length-1;i++){
         newa=(array[i]* array[i+1])
         newaarray.push(newa)
        
     }
-    return newaarray
+    alert("The multiplied array is "+ newaarray)
 
 }
-console.log(arraymultiply([1,2,3,4,5]));
+arraymultiply();

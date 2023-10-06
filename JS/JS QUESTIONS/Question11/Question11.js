@@ -1,12 +1,22 @@
-Evennumber=(Array)=>{
-         let evennumbers=[];
-    for (i of Array){
-        if(i%2==0){
-           evennumbers.push(i)
+
+Evennumber=()=>{
+    let arraylength=parseInt(prompt("Enter the length of the array"))
+    let Array=[]
+    if(arraylength>0){
+        for(let i=0;i<arraylength;i++){
+            let inp=parseInt(prompt("Enter the value to the array"))
+            Array.push(inp)
         }
+        let evennumbers=[];
+        for (j of Array){
+            if(j%2==0){
+               evennumbers.push(j)
+            }
+        }
+        alert (evennumbers)
     }
-    return evennumbers
+     
 
 }
+window.onload= Evennumber();
 
-console.log(Evennumber([1,2,3,4,5,6]));

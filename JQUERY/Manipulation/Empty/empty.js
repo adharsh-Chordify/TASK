@@ -1,5 +1,5 @@
 $(document).ready(()=>{
-    $('button').click(()=>{
-        $('div').empty()
+    $('#mybutton').click(()=>{
+        $('#div1').empty()
     })
 })

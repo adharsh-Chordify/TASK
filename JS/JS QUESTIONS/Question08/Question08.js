@@ -1,3 +1,5 @@
+let input1=parseInt(prompt("Enter the Number"))
+
 SumOfOdd=(input)=>{
     let total=0;
     for(let i=1;i<=input;i++){
@@ -6,6 +8,6 @@ SumOfOdd=(input)=>{
         }
         
     }
-    return "The Sum Of ODD Numbers are "+ total;
+    alert( "The Sum Of ODD Numbers in between 1 and " +input+ " are "+ total);
 }
-console.log(SumOfOdd(3));
+SumOfOdd(input1);

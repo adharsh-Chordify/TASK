@@ -1,5 +1,5 @@
 $(document).ready(()=>{
-    $('button').click(()=>{
-        $('p').wrapInner('<b></b>')
+    $('#mybutton').click(()=>{
+        $('#para').wrapInner('<b></b>')
     })
 })

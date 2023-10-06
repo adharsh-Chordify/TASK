@@ -1,11 +1,12 @@
-string=(str)=>{
+string=()=>{
+    let str=prompt("Enter the string")
     try{
-        console.log(`Reverse of the string is ${str.split("").reverse().join()}`);
+        alert(`Reverse of the string is ${str.split("").reverse().join()}`);
     }
     catch(error){
-        console.log(`The error is  ${error}`);
+        alert(`The error is  ${error}`);
     }
-    console.log(`The type of the string is ${typeof(str)}`);
+    alert(`The type of the input is ${typeof(str)}`);
 }
 
-string(123)
+string()

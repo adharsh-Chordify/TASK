@@ -1,6 +1,6 @@
 $(document).ready(()=>{
-    $('p').hover(()=>{
-        $('p').wrap('<div></div>')
+    $('#para').hover(()=>{
+        $('#para').wrap('<div></div>')
     })
    
 })

@@ -1,5 +1,5 @@
 $(document).ready(()=>{
-    $('button').click(()=>{
-        $('div').remove()
+    $('#mybutton').click(()=>{
+        $('#div1').remove()
     })
 })

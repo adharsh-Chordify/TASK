@@ -16,12 +16,14 @@ var library = [
     }
     ];
 
-library.map(i=>{
-    if(i.readingStatus==true){
-        console.log(`Already read ${i.title} by ${i.author}`);
+    for(i=0;i<library.length;i++){
+        let k=library[i];
+        if(k.readingStatus==true){
+            console.log(`Already read ${k.title} by ${k.author}`)
+        }
+        else{
+            console.log(`You still need to read ${k.title} by ${k.author}`);
+        }
+    }
 
-    }
-    else{
-        console.log(`You still need to read ${i.title} by ${i.author}`);
-    }
-})
+    

@@ -1,5 +1,5 @@
 $(document).ready(()=>{
-    $('button').click(()=>{
-        $('h2').after('<b>This is the text which is added after</b>')
+    $('#mybutton').click(()=>{
+        $('#h1tag').after('<b>This is the text which is added after</b>')
     })
 })
