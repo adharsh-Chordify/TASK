@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./css.css">
+</head>
+
+
+
+
+<body>
+    <h2>Enter The Values</h2>
+  <form name="myform" id="myfor">
+        <label for="nameinput">Name</label>
+        <input name="namein" type="text" id="nameinput" placeholder="Enter Your Name">
+        
+        <label for="emailinput">Email</label>
+        <input name="email" type="email" id="emailinput" placeholder="Enter Your Email">
+        
+        <label for="emailinput">PhoneNumber</label>
+        <input name="phone" type="text" id="phoneinput" placeholder="Enter Your PhoneNumber">
+
+        <label for="submitButton">Submit</label>
+       <button type="submit" id="submitButton">Click Here To Submit</button>
+
+  </form>
+
+
+
+    <table id="table" class="table1">
+        <thead >
+            <th class="tableheader">Sl.No</th>
+            <th class="tableheader">Name</th>
+            <th class="tableheader">Email</th>
+            <th class="tableheader">Phone Number</th>
+            <th class="">Button</th>
+        </thead>
+        <tbody class="temp">
+            <td id="slno" class="tabledata">1</td> 
+            <td class="tabledata">Adharsh</td> 
+            <td class="tabledata">Adharsh323@gmial.com</td> 
+            <td class="tabledata">123456789</td> 
+            <td class="tabledataRemove"><button>Remove</button></td> 
+        </tbody>
+    </table>
+</body>
+<script src="./javascript.js"></script>
+</html>

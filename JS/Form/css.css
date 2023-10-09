@@ -1,0 +1,25 @@
+.tableheader{
+     border-right: 1px solid black;
+     width: 350px;
+}
+.tabledata{
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    width: 150px;
+    /* text-align: center; */
+}
+.table1{
+    border: 1px solid black;
+    margin-top: 50px;
+    
+}
+.tabledataRemove{
+    border-top: 1px solid black;
+    width: 150px;
+    text-align: center;
+
+
+}
+.temp{
+    align-items:center
+}
