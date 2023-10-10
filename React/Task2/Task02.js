@@ -13,7 +13,7 @@ function Firstclass(props){
         <div>
             <h2>{words} Everything happens for the best</h2>
             <h4>{<Hello/>}</h4>
-            <h3>This text is the text {props.data}</h3>
+            <h3>This text is to {props.data}</h3>
         </div>
     )
 }
