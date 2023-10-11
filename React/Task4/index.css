@@ -48,3 +48,6 @@
     border-radius: 10px;
     font-size:medium;
 }
+.error{
+    color: red;
+}
