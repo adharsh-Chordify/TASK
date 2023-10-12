@@ -61,3 +61,8 @@
   color: bisque;
   font-size: larger;
 }
+.district{
+   width: 230px;
+   border-radius: 10px;
+   font-size: large;
+}
