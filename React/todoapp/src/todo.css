@@ -1,0 +1,66 @@
+.overview{
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    background-color: rgb(46, 39, 39);
+    width: 400px;
+    text-align: center;
+    color: white;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    gap:20px;
+
+}
+.inputd{
+
+    width: 180px;
+    height: 50px;
+}
+.buttonform{
+    width: 70px;
+    height: 35px;
+}
+.inputdata{
+    width: 200px;
+    height: 35px;
+}
+.error{
+    color: red;
+}
+.todoform{
+    background-color: rgb(46, 39, 39);
+    width: 400px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.todoapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    
+}
+.editbut{
+    margin-left: 10px;
+    width: 80px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: yellow;
+    
+}
+.deletebut{
+    margin-left: 10px;
+    width: 80px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+}
