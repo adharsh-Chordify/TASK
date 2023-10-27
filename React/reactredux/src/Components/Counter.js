@@ -14,10 +14,10 @@ function Counter() {
                 <h1>Increment/Decrement Counter</h1>
                 <h4>Using React and Redux</h4>
 
-                <div class="btn-group mt-2" role="group" aria-label="Basic example">
-                    <button type="button" class="btn btn-secondary" title='Decrement' onClick={()=>dispatch(decNumber())}>-</button>
+                <div className="btn-group mt-2" role="group" aria-label="Basic example">
+                    <button type="button" className="btn btn-secondary" title='Decrement' onClick={()=>dispatch(decNumber())}>-</button>
                     <input className='w-25 form-control text-center' disabled value={state}></input>
-                    <button type="button" class="btn btn-secondary" title='Increment' onClick={()=>dispatch(incNumber(5)) }>+</button>
+                    <button type="button" className="btn btn-secondary" title='Increment' onClick={()=>dispatch(incNumber(5)) }>+</button>
                 </div>
 
             </div>
