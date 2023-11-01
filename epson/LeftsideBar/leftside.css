@@ -1,0 +1,31 @@
+.psdashleft{
+    border-right: 2px dotted rgb(0, 0, 0);
+   
+height: 993px;
+margin-left: 20px;
+}
+.ps-logo-img{
+    width: 228px;
+height: 102px;
+margin-top: 25px;
+margin-left: 20px;
+flex-shrink: 0;
+}
+.ps-sidemenu{
+    margin-top: 130px;
+  
+    width: 231px;
+height: 292px;
+flex-shrink: 0;
+ 
+}
+.psdashboard{
+    font-size: larger;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.psdashboardmenu{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+}

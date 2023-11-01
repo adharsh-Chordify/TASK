@@ -1,0 +1,171 @@
+.ps{
+    
+   
+    height: 993px;
+    flex-shrink: 0;
+/* background-color: aqua; */
+}
+.psdashleft{
+    border-right: 2px dotted rgb(0, 0, 0);
+    margin-left: 20px;
+height: 993px;
+}
+.ps-logo-img{
+    width: 228px;
+height: 102px;
+margin-top: 25px;
+margin-left: 20px;
+flex-shrink: 0;
+}
+.ps-sidemenu{
+    margin-top: 130px;
+    /* border: solid 1px black; */
+    width: 231px;
+height: 292px;
+flex-shrink: 0;
+ 
+}
+.psdashboard{
+    font-size: larger;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.psdashboardmenu{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+.psback{
+    margin-top: 80px;
+    background-color: black;
+    width: 58px;
+    height: 43px;
+    flex-shrink: 0;
+    border-radius: 80px;
+    color: white;
+        text-align: center;
+}
+.psright{
+    border: 1px solid black;
+    margin-left:60px;
+    height: 825px;
+    border-radius: 19.627px;
+    width: 1400px;
+border: 0.981px solid #4245B6;
+background: #FFF;
+box-shadow: 8.83209px 3.92537px 8.83209px 0px rgba(0, 0, 0, 0.25);
+}
+.psrightheader{
+   text-align: center;
+   margin-top: 20px;
+}
+.psrightupload{
+    margin-top: 50px;
+    margin-left: 97px;
+    position: absolute;
+}
+.psrightuploadtext{
+    margin-top: 10px;
+    width: 1150px;
+height: 95.582px;
+flex-shrink: 0;
+border-radius: 8.412px;
+border: 1.682px solid #000;
+}
+.psrgihtuploadi{
+    display: flex;
+    flex-direction: column;
+   
+    /* position: relative; */
+    
+}
+.psrgihtuploadicon{
+    margin-left: 20px;
+    margin-top: -80px;
+    margin-left: 600px;
+}
+.selectyouprint{
+    margin-left: 520px;
+    margin-top: 10px;
+}
+.psrightdropdowns{
+    margin-top: 50px;
+    margin-left: 10px;
+    display: flex;
+    gap: 107px;
+
+}
+.psrightdropdowns1{
+    border-radius: 4.907px;
+border: 0.981px solid #000;
+height: 45px;
+width: 200px;
+padding: 6.869px 13.926px 7.534px 11.776px;
+text-align: center;
+}
+.psrightschedule{
+    margin-top: 50px;
+    width: 311px;
+height: 53px;
+position: absolute;
+border-radius: 25px;
+background-color: #921E35;
+}
+.psrightscheduleinner{
+    width: 138px;
+height: 35px;
+position: relative;
+border-radius: 20px;
+background: #FFF;
+margin-top: 10px;
+margin-left: 150px;
+align-items: center;
+text-align: center;
+
+}
+.psrightschedule1{
+    /* position: relative; */
+    display: flex;
+    margin-left: 40px;
+    padding-top: 5px;
+}
+.psrightprint{
+    margin-top: 50px;
+    width: 1300px;
+   display: flex;
+   gap: 400px;
+   /* background-color: #000; */
+ 
+   margin-left: 20px;
+}
+.psrightavailable{
+    display: inline;
+}
+.psrightavailabledate{
+    margin-left: 60px;
+    border-radius: 4.907px;
+    border: 0.981px solid #000;
+    height: 45px;
+    width: 150px;
+    padding: 6.869px 13.926px 7.534px 11.776px;
+    text-align: center;
+}
+.psrightschedulelaterbtn{
+    margin-top: 120px;
+    align-items: end;
+    text-align: end;
+    width: 1200px;
+}
+.psrightschedulelaterbtn1{
+    border-radius: 3.422px;
+    height: 40.268px;
+    color: white;
+    background-color: #921E35;
+    box-shadow: 0px 1.36865px 0.68432px 0px rgba(0, 0, 0, 0.25);
+}
+/* .psrightschedulelaterbtn{
+    border-radius: 3.422px;
+color:red;
+
+box-shadow: 0px 1.36865px 0.68432px 0px rgba(0, 0, 0, 0.25);
+} */
