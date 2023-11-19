@@ -1,0 +1,72 @@
+.formdata{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+   
+}
+.heading{
+   align-items: center;
+}
+.formback{
+   background-color: rgb(25, 173, 173);
+   align-items: center;
+   padding: 10px;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 500px;
+  font-size: larger;
+}
+.buttonsub{
+   background-color: blueviolet;
+   color: rgb(17, 16, 16);
+   font-weight: bolder;
+}
+#root{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#name{
+   font-size: large;
+   border-radius: 10px;
+}
+#age{
+   font-size: large;
+   border-radius: 10px;
+}
+#email{
+   font-size: large;
+   border-radius: 10px;
+}
+#password{
+   font-size: large;
+   border-radius: 10px;
+}
+.buttonsub{
+   width: 200px;
+   height: 50px;
+   border-radius: 10px;
+   font-size:medium;
+}
+.error{
+   color: red;
+}
+.outputdiv{
+  background-color: rgb(61, 129, 150);
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+.outputp{
+  color: bisque;
+  font-size: larger;
+}
+.district{
+   width: 230px;
+   border-radius: 10px;
+   font-size: large;
+}

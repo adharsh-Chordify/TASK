@@ -1,7 +1,7 @@
 
 import { useForm } from 'react-hook-form';
 import './App.css';
-import { useEffect, useState } from 'react';
+import {  useState } from 'react';
 import * as yup from "yup"
 import {yupResolver} from "@hookform/resolvers/yup"
 
