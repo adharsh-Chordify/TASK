@@ -28,10 +28,7 @@ function Register() {
    resolver:yupResolver(schema)
     })
 
-    const [Name,setName]=useState()
-    const [Age,setAge]=useState()
-    const [Email,setEmail]=useState()
-    const [Password,setPassword]=useState()
+  
     
 //    const temp=watch("state")
   
@@ -47,10 +44,7 @@ function Register() {
         <form className="formdata" onSubmit={handleSubmit(async (data)=>{
           
           // alert(data)
-          setName(data.Name);
-          setAge(data.Age);
-          setEmail(data.Email);
-          setPassword(data.Password)
+        
           console.log(data);
           const body=data
  
@@ -64,7 +58,7 @@ function Register() {
           // console.log(formdata.namedata);
         })}  >
           <div className="formback">
-            <h2 className="heading">React Form</h2>
+            <h2 className="heading">Register Form</h2>
             <label>Enter Your Name</label>
             <input {...register('Name')} type="text" placeholder="Enter the name" id='name'></input> <br></br>
                <p className="error" >{errors.Name?.message}</p>  
@@ -82,7 +76,7 @@ function Register() {
             <label>Set Your Password</label>
              <input id='password' type="password" placeholder="Enter your Email" {...register("Password")} ></input> <br></br>
              <p className="error" >{errors.Password?.message}</p>
-             <button type='submit'>Submit</button>
+             <button className='buttonsub' type='submit'>Submit</button>
      
           </div>
   

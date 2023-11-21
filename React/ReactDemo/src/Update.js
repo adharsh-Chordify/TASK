@@ -22,10 +22,7 @@ function Update() {
         resolver:yupResolver(schema)
          })
      
-         const [Name,setName]=useState()
-         const [Age,setAge]=useState()
-         const [Email,setEmail]=useState()
-         const [Password,setPassword]=useState()
+        
          
      //    const temp=watch("state")
        
