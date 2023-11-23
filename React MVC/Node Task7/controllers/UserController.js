@@ -1,14 +1,10 @@
-
-
 const bycrypt=require('bcryptjs')
-
-
-
-const jwtsecret='asdfgfhrtgjfbjfgbgfngfhiogh'
 const jwt=require('jsonwebtoken')
+
 const User=require('../models/UserModel')
 
 
+const jwtsecret="asfdjkdfjldddddvdfndifsddfrgfkgnvoiloveu"
 
 
 
@@ -32,6 +28,7 @@ const{Name,Email,Password,Age}=req.body
             user.Email=Email
             user.Password=hash
             user.Age=Age
+            user.FileData=req.file.path
 
             await user.save()
         })

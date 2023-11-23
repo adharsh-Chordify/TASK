@@ -7,7 +7,8 @@ const mongoose=require('mongoose')
     Name:String,
     Email:String,
     Password:String,
-    Age:Number
+    Age:Number,
+    FileData:String
 
 })
 

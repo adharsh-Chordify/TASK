@@ -1,6 +1,9 @@
 const User=require('../models/UserModel')
-const jwtsecret='asdfgfhrtgjfbjfgbgfngfhiogh'
+
 const jwt=require('jsonwebtoken')
+// const jwtsecret=process.env.jwtsecret
+const jwtsecret="asfdjkdfjldddddvdfndifsddfrgfkgnvoiloveu"
+
 
 
 const Authendication=async(req,res,next)=>{
