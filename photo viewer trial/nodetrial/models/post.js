@@ -15,12 +15,18 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   Post.init({
+    id: {
+      type: DataTypes.INTEGER, // Assuming it's an integer type
+      autoIncrement: true,
+    },
+
     email: {
       type:DataTypes.STRING,
       allowNull:false
     },
     uuid: {
       type: DataTypes.UUID,
+      primaryKey: true,
       defaultValue: DataTypes.UUIDV4,
     },
     image: {

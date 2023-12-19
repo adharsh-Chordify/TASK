@@ -8,6 +8,7 @@ const {sequelize}=require('./models/index')
 
 
 const app=express()
+const port=4001
 
 app.use(express.json())
 app.use(cors())
@@ -15,7 +16,7 @@ app.use(bodyParser.urlencoded({extended:true}))
 app.use('/',require('./router/router'))
 
 
-const port=4001
+
 
 app.listen(port,async()=>{
     console.log("server is running")
