@@ -9,6 +9,14 @@ module.exports = {
         autoIncrement: true,
         type: Sequelize.INTEGER
       },
+      userName:{
+        type:Sequelize.STRING,
+        allowNull:false
+      },
+      userImg:{
+        type:Sequelize.STRING,
+        
+      },
       
       email: {
         type:Sequelize.STRING,

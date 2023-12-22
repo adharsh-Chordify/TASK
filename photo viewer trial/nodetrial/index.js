@@ -14,6 +14,7 @@ app.use(express.json())
 app.use(cors())
 app.use(bodyParser.urlencoded({extended:true}))
 app.use('/',require('./router/router'))
+app.use('/uploads',express.static('uploads'))
 
 
 

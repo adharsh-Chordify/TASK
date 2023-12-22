@@ -19,6 +19,14 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.INTEGER, // Assuming it's an integer type
       autoIncrement: true,
     },
+    userName:{
+      type:DataTypes.STRING,
+      allowNull:false
+    },
+    userImg:{
+      type:DataTypes.STRING,
+      
+    },
 
     email: {
       type:DataTypes.STRING,

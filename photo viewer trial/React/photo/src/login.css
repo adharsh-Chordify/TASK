@@ -30,5 +30,16 @@
  
 }
 
+.homepagetemp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 20vh; */
+    margin-top: 50px;
+}
+.Homeprofileimg{
+    width: 8%;
+    border-radius: 10px;
+}
 
 

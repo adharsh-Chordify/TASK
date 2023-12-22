@@ -6,6 +6,8 @@ const jwtsecret="asfdjkdfjldddddvdfndifsddfrgfkgnvoiloveu"
 const Register=async(req,res)=>{
      const{Email,firstName,lastName,Password}=req.body
      
+     const img=req.file.filename
+     
      const user=await User.findOne({where:{email:Email}})
      try{
         if(user){
@@ -13,9 +15,9 @@ const Register=async(req,res)=>{
         }
         else{
            const hash=await bcrypt.hash(Password,10)
-                const addedTask= await  User.create({email:Email,fistName:firstName,lastName:lastName,password:hash})
+                const addedTask= await  User.create({email:Email,fistName:firstName,lastName:lastName,password:hash,profilepic:img})
                 // await addedTask.save()
-                res.status(201).json({message:"User registered successfully"})
+                res.status(201).json({message:"User registered successfully",data:addedTask})
             }
           
         }
@@ -56,16 +58,33 @@ const Login=async(req,res)=>{
 
 
 
+
+
+
+
+
 const post=async(req,res)=>{
-    const{UUID,img,caption}=req.body
+    const{UUID,caption}=req.body
+    const img=req.file.filename
         const user= await  User.findOne({where:{uuid:UUID}})
         console.log(user.uuid);
-        const post=await Post.create({email:user.email,uuid:user.uuid,image:img,caption:caption})
+        const post=await Post.create({userName:user.fistName,userImg:user.profilepic,email:user.email,uuid:user.uuid,image:img,caption:caption})
            // await addedTask.save()
-           res.status(201).json(`Task added successfully`)
+           res.status(201).json(post)
 
 }
 
 
+const getAll=async(req,res)=>{
+    try{
+        const getalldata= await Post.findAll()
+        res.status(200).json(getalldata)
+    }
+   catch(err){
+    res.status(404).json(err)
+   }
+}
 
-module.exports={Register,post,Login}
+
+
+module.exports={Register,post,Login,getAll}

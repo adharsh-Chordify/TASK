@@ -4,7 +4,7 @@ const {User}=require('../models')
 
 
 const jwtmiddlewares=async(req,res,next)=>{
-    const temptoken=req.body.token
+    const temptoken=req.headers.token
     const data=await jwt.verify(temptoken,jwtsecret)
     const userData= await User.findOne({where:{uuid:data.uuid}})
     if(!userData){
